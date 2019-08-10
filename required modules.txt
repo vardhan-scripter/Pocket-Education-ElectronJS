@@ -1,0 +1,8 @@
+Before Running this application we need to install these modules.
+1.cvs-parser
+>npm install csv-parser
+2.csv-write-stream
+>npm install csv-write-stream
+
+then we can run this application
+>npm start

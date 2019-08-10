@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    }
+    header{
+    /* display:flex; */
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    
+    }
+    header h1{
+        font-weight: lighter;
+        color: white;
+        text-transform: uppercase;
+        font-size: 200%;
+        margin-left: 5%;
+        margin-top: 2%;
+        float: left;
+    }
+    header a{
+        font-size: 120%;
+        padding-right: 5%;
+        float: right;
+    }
+    header button{
+        border: none;
+        background-color: white;
+        border-radius: 6px;
+        text-transform: uppercase;
+        font-size:100%;
+        margin-top: 20%;
+    }
+    .dashboard{
+        height: 60px;
+        font-family: bold;
+        margin-top: 40px;
+    }
+    .dashboard .heading{
+        font-size:30px;
+        font-weight: 900;
+        float: left;
+    }
+    .search{
+        margin-top: 10px;
+        float: right;
+    }
+    main{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .table .thead-dark th {
+        color: #fff;
+        background-color: #343a40;
+        border-color: #454d55;
+        text-align: center;
+        height: 40px;
+    }
+    .table-bordered td, .table-bordered th {
+        border: 1px solid #dee2e6;
+        text-align: center;
+        height: 40px;
+    }
+    .description{
+        width: 50%;
+    }
+    .extra-column{
+        width: 0%;
+    }
+    td button{
+        border: none;
+        background: #fff; 
+        float: right;
+        margin-right: 4%;
+      }

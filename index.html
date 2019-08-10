@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Packet Education</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pocket-Education</h1>
+        <a href="uploadblock.html" class="upload"><button>add new block</button></a>
+    </header>
+    <main>
+        <section class="dashboard">
+            <div class="heading">Dashboard</div>
+            <div class="search">
+                <form class="form-inline">
+                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Enter any word" aria-label="Search" id="data-for-search" onkeyup="searchdata();">
+                </form>
+            </div>
+        </section>
+        <section class="table">
+            <table class="table table-bordered table-sm">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th class="description"></th>
+                  </tr>
+                </thead>
+                <tbody id="table-body">
+                  
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
